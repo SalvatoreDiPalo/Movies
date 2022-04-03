@@ -19,6 +19,8 @@ public class Movie {
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
     private Long id;
 
+    private Short runTime;
+
     private LocalDate releaseDate;
 
     @OneToMany(mappedBy = "movie", cascade = {CascadeType.DETACH, CascadeType.MERGE, CascadeType.PERSIST, CascadeType.REFRESH}, orphanRemoval = true)
