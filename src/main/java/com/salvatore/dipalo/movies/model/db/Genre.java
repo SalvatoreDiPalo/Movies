@@ -1,4 +1,4 @@
-package com.salvatore.dipalo.movies.models;
+package com.salvatore.dipalo.movies.model.db;
 
 import lombok.Getter;
 import lombok.Setter;

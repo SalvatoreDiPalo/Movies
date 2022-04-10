@@ -1,6 +1,6 @@
-package com.salvatore.dipalo.movies.models;
+package com.salvatore.dipalo.movies.model.db;
 
-import com.salvatore.dipalo.movies.LocalizedId;
+import com.salvatore.dipalo.movies.util.LocalizedId;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;

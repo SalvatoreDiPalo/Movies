@@ -1,4 +1,4 @@
-package com.salvatore.dipalo.movies;
+package com.salvatore.dipalo.movies.util;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;

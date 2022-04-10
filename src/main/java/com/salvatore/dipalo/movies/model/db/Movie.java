@@ -1,4 +1,4 @@
-package com.salvatore.dipalo.movies.models;
+package com.salvatore.dipalo.movies.model.db;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -29,8 +29,8 @@ public class Movie {
 
     @ManyToMany
     @JoinTable(name = "movie_genre",
-            joinColumns = { @JoinColumn(name = "movie_id") },
-            inverseJoinColumns = { @JoinColumn(name = "genre_id") })
+            joinColumns = {@JoinColumn(name = "movie_id")},
+            inverseJoinColumns = {@JoinColumn(name = "genre_id")})
     private Set<Genre> genres = new HashSet<>();
 
     public String getTitle(String locale) {
